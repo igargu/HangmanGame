@@ -108,6 +108,7 @@ public class HangmanGame {
                     // Si el tablero contiene solo letras, la palabra habrá sido adivinada
                     if (!tablero.contains("_  ")) {
                         System.out.println("¡Felicidades has acertado la palabra! Solución: " + palabra);
+			System.exit(0);
                     }
 
                     // Si el número de vidas llega 0, la palabra no habrá sido adivinada
